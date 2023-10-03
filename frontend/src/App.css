@@ -1,0 +1,84 @@
+  .greenbtn{
+    background-color: #00cf83;
+color: white;
+  }
+  .green{
+    color: #00cf83;
+  }
+
+
+
+
+@media (max-width:998px) {
+  .blogdetail{
+    flex-direction: column !important;
+    margin: 5px;
+  }
+.blogdetail:first-child{
+  width: 100%;
+}
+}
+
+
+  
+
+  @media (max-width: 768px) {
+    .custom {
+      font-size: 14px; /* Adjust the font size as needed */
+
+    }
+    .buttons{
+      font-size:14px !important;
+    }
+    .custom-home-div{
+      flex-direction: column !important;
+    }
+    .home-select{
+      margin: 4px;
+    }
+  
+    .centering-content-mobile{
+      padding: 8px;
+      text-align: center;
+    }
+  }
+
+
+@media (max-width:1024px) {
+  .blogdetail{
+    flex-direction: column !important;
+    margin: 5;
+  }
+.blogdetail:first-child{
+  width: 100%;
+}
+.tableRsponsive{
+  flex-direction: column !important;
+}
+}
+
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+
+
+.popup {
+  /* Update the styles for the popup */
+  background-color: #fff;
+  justify-content: center;
+  padding: 40px; /* Increase the padding for more space */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  max-width: 600px; /* Set a maximum width for the popup */
+  width: 100%;
+}
